@@ -5,3 +5,20 @@ class_name = "cf_ai_ogooluwa_bot"
 [[migrations]]
 tag = "v1"
 new_sqlite_classes = ["cf_ai_ogooluwa_bot"]
+
+
+change it 
+name = "cf_ai_edge_chat"
+main = "src/index.ts"
+compatibility_date = "2025-12-03"
+
+[[ai]]
+binding = "AI"
+
+[[durable_objects.bindings]]
+name = "MyAgent"
+class_name = "MyAgent"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["MyAgent"]
