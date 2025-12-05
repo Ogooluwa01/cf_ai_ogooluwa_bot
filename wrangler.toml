@@ -2,7 +2,7 @@ name = "cf_ai_ogooluwa_bot"
 main = "src/index.ts"
 compatibility_date="2025-12-03"
 
-[[ai]]
+[ai]
 binding = "AI"
 
 [[durable_objects.bindings]]
@@ -12,6 +12,3 @@ class_name = "cf_ai_ogooluwa_bot"
 [[migrations]]
 tag = "v1"
 new_sqlite_classes = ["cf_ai_ogooluwa_bot"]
-
-[[realtime]]
-binding="REALTIME"
