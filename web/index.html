@@ -1,1 +1,24 @@
 #simple chat UI
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Realtime Ogooluwa AI Chatbot</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: auto; }
+    #chat { border: 1px solid #ccc; padding: 10px; height: 400px; overflow-y: auto; }
+    .msg { margin: 5px 0; }
+    .user { color: Purple; }
+    .assistant { color: green; }
+  </style>
+</head>
+<body>
+  <h1>Realtime AI Chat</h1>
+  <div id="chat"></div>
+  <input id="input" type="text" placeholder="Type a message..." />
+  <button id="send">Send</button>
+
+  <script src="chat.js"></script>
+</body>
+</html>
+
