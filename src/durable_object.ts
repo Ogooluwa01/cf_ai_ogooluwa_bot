@@ -1,12 +1,10 @@
-export class MyAgent {
+export class cf_ai_ogoooluwa_bot {
   state: DurableObjectState;
   storage: DurableObjectStorage;
-  env: any;
 
   constructor(state: DurableObjectState, env: any) {
     this.state = state;
     this.storage = state.storage;
-    this.env = env;
   }
 
   async fetch(request: Request) {
