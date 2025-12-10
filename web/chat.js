@@ -9,7 +9,8 @@ let socket;
 
 function connect() {
   const sessionId = sessionInput.value || "default";
-  socket = new WebSocket("wss://YOUR_WORKER_URL/realtime");
+  socket = new WebSocket("wss://ai-powered-app-on-cloudfare-using-llm.ogooluwamary135.workers.dev/realtime
+");
 
   socket.onopen = () => {
     status.textContent = `Connected (session: ${sessionId})`;
