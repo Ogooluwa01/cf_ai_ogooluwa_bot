@@ -9,8 +9,7 @@ let socket;
 
 function connect() {
   const sessionId = sessionInput.value || "default";
-  socket = new WebSocket("wss://cf-ai-ogooluwa-bot.ogooluwamary135.workers.dev/realtime
-");
+  socket = new WebSocket("wss://cf-ai-ogooluwa-bot.ogooluwamary135.workers.dev/realtime");
 
   socket.onopen = () => {
     status.textContent = `Connected (session: ${sessionId})`;
