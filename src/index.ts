@@ -1,4 +1,4 @@
-import {cf_ai_ogooluwa_bot} from "./durable-object";
+import MyAgent } from "./durable-object";
 
 export default {
   async fetch(request: Request, env: any) {
