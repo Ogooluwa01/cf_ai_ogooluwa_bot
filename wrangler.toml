@@ -6,9 +6,9 @@ compatibility_date="2025-12-03"
 binding = "AI"
 
 [[durable_objects.bindings]]
-name = "MyAgent"
-class_name = "MyAgent"
+name = "cf_ai_ogooluwa_bot"
+class_name = "cf_ai_ogooluwa_bot"
 
 [[migrations]]
 tag = "v1"
-new_sqlite_classes = ["MyAgent"]
+new_sqlite_classes = ["cf_ai_ogooluwa_bot"]
