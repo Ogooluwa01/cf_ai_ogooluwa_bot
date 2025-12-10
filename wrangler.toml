@@ -1,4 +1,4 @@
-name = "cf-ai-ogooluwa-bot"
+name = "ai-powered-app-on-cloudfare-using-llm"
 main = "src/index.ts"
 compatibility_date="2025-12-03"
 
