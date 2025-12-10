@@ -1,4 +1,4 @@
-name = "cf_ai_ogooluwa_bot"
+name = "cf-ai-ogooluwa-bot"
 main = "src/index.ts"
 compatibility_date="2025-12-03"
 
