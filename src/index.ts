@@ -1,4 +1,5 @@
 import {MyAgent} from "./durable-object";
+export {MyAgent };
 
 export default {
   async fetch(request: Request, env: any) {
