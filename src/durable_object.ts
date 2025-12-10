@@ -1,4 +1,4 @@
-export class cf_ai_ogooluwa_bot {
+export class MyAgent {
   state: DurableObjectState;
   env: any;
   clients: Set<WebSocket>;
