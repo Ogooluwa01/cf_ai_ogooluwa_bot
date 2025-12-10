@@ -1,5 +1,5 @@
 import {MyAgent} from "./durable-object";
-export {MyAgent };
+export {MyAgent};
 
 export default {
   async fetch(request: Request, env: any) {
@@ -12,8 +12,8 @@ export default {
 
       server.addEventListener("message", async (event: any) => {
         const data = JSON.parse(event.data);
-        const id = env.cf_ai_ogooluwa_bot.idFromName(data.sessionId || "default");
-        const stub = env.cf_ai_ogooluwa_bot.get(id);
+        const id = env.MyAgent.idFromName(data.sessionId || "default");
+        const stub = env.MyAgent.get(id);
 
         // Add user message to DO
         await stub.fetch("https://do/add", {
@@ -43,7 +43,7 @@ export default {
 };
 
 // Durable Object implementation
-export class cf_ai_ogooluwa_bot {
+export class MyAgent {
   state: DurableObjectState;
   env: any;
   turns: Array<{ role: string; content: string }>;
